@@ -335,23 +335,28 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: createjs 2s ease;
   	-webkit-animation: createjs 2s ease;
 }
-.nodejs {
+.phaser {
   	width: 60%;
+  	-moz-animation: phaser 2s ease;
+  	-webkit-animation: phaser 2s ease;
+}
+.nodejs {
+  	width: 40%;
   	-moz-animation: nodejs 2s ease;
   	-webkit-animation: nodejs 2s ease;
 }
 .socketio {
-  	width: 60%;
+  	width: 40%;
   	-moz-animation: socketio 2s ease;
   	-webkit-animation: socketio 2s ease;
 }
 .mongodb {
-  	width: 60%;
+  	width: 40%;
   	-moz-animation: mongodb 2s ease;
   	-webkit-animation: mongodb 2s ease;
 }
 .photoshop {
-  	width: 50%;
+  	width: 40%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
@@ -364,21 +369,25 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes nodejs {
+@-moz-keyframes phaser {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-moz-keyframes nodejs {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 @-moz-keyframes socketio {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 40%;  }
 }
 @-moz-keyframes mongodb {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 40%;  }
 }
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 40%;  }
 }
 
 @-webkit-keyframes javascript {
@@ -389,21 +398,25 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes nodejs {
+@-webkit-keyframes phaser {
   0%   { width: 0px;  }
   100% { width: 60%;  }
+}
+@-webkit-keyframes nodejs {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 @-webkit-keyframes socketio {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 40%;  }
 }
 @-webkit-keyframes mongodb {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 40%;  }
 }
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 40%;  }
 }
 
 /* ------------------------------------------------------------------ */
