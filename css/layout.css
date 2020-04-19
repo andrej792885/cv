@@ -335,10 +335,10 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: createjs 2s ease;
   	-webkit-animation: createjs 2s ease;
 }
-.phaser {
+.unity {
   	width: 60%;
-  	-moz-animation: phaser 2s ease;
-  	-webkit-animation: phaser 2s ease;
+  	-moz-animation: unity 2s ease;
+  	-webkit-animation: unity 2s ease;
 }
 .nodejs {
   	width: 40%;
@@ -369,7 +369,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes phaser {
+@-moz-keyframes unity {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
@@ -398,7 +398,7 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes phaser {
+@-webkit-keyframes unity {
   0%   { width: 0px;  }
   100% { width: 60%;  }
 }
